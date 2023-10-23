@@ -1,4 +1,3 @@
-
 from pytube import YouTube
 
 import os
@@ -42,7 +41,7 @@ def download_audio(url, output_path):
 
 
 url = input("Enter the url of the video: ")
-path = 'D:\Python\Side_Projects'
+path = 'D:\Python\Side_Projects\Youtube_Video_Downloader'
 c = input("Enter A for audio and V for both audio and video: ")
 if (c == 'A' or c == 'a'):
     audio_path = download_audio(url, path)
